@@ -1,0 +1,165 @@
+digraph {
+	graph [bgcolor="#FFFFFF" color="#7C96BC" fontcolor="#202020" fontname=Verdana fontsize=10 margin="0,0" pad="1.0,0.5" rankdir=LR]
+	node [color="#7C96BC" fillcolor="#BCD6FC" fontcolor="#202020" fontname=Verdana fontsize=10 margin="0,0" shape=box style=filled]
+	edge [color="#7C96BC" fontcolor="#202020" fontname=Verdana fontsize=10 style=solid]
+	"/outputs/222" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool3x3</td></tr></table>>]
+	"/outputs/228" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/229" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/235" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/236" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/242" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/243" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/251" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/252" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/258" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/259" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/265" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/266" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/272" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/273" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/281" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/282" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/288" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/289" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/295" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/296" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/302" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/303" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/309" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/310" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/316" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/317" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/325" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/326" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/332" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/333" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/339" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Add</td></tr></table>>]
+	"/outputs/340" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Relu</td></tr></table>>]
+	"/outputs/341" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>GlobalAveragePool</td></tr></table>>]
+	"/outputs/342" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Flatten</td></tr></table>>]
+	"/outputs/343" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear</td></tr></table>>]
+	421443888623294598 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv7x7 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	3266316679791726120 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	15545005430680322283 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	17044161583190139551 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	1661814429271953994 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	4699694909153685117 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	10767404730878160022 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	8912420686627221955 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	8069407363500219295 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	14706263190910772673 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	14286000663907496118 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	14002693597504403083 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	6446143944831567414 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	13739258726911528462 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	648350340012996942 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	6792361451724194340 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	7846033052317768441 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	14331756110628012191 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	11461714730556284879 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	253180032576607767 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	3430846454445193926 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	8826074449707059113 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	8212875547236771015 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	2253903095101763387 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	1397571035298133363 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	18355074066990498597 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	10365537767206158995 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	5117724381864073531 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	2911185742417068899 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	10878126999804949939 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	15655438323911258780 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	2839332463412819598 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	17191837213435110003 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	16975333706778247181 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	1958388623018335874 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	7901841111966620993 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm</td></tr></table>>]
+	"/outputs/222" -> "/outputs/228"
+	"/outputs/228" -> "/outputs/229"
+	"/outputs/229" -> "/outputs/235"
+	"/outputs/235" -> "/outputs/236"
+	"/outputs/236" -> "/outputs/242"
+	"/outputs/242" -> "/outputs/243"
+	"/outputs/251" -> "/outputs/252"
+	"/outputs/252" -> "/outputs/258"
+	"/outputs/258" -> "/outputs/259"
+	"/outputs/259" -> "/outputs/265"
+	"/outputs/265" -> "/outputs/266"
+	"/outputs/266" -> "/outputs/272"
+	"/outputs/272" -> "/outputs/273"
+	"/outputs/281" -> "/outputs/282"
+	"/outputs/282" -> "/outputs/288"
+	"/outputs/288" -> "/outputs/289"
+	"/outputs/289" -> "/outputs/295"
+	"/outputs/295" -> "/outputs/296"
+	"/outputs/296" -> "/outputs/302"
+	"/outputs/302" -> "/outputs/303"
+	"/outputs/303" -> "/outputs/309"
+	"/outputs/309" -> "/outputs/310"
+	"/outputs/310" -> "/outputs/316"
+	"/outputs/316" -> "/outputs/317"
+	"/outputs/325" -> "/outputs/326"
+	"/outputs/326" -> "/outputs/332"
+	"/outputs/332" -> "/outputs/333"
+	"/outputs/333" -> "/outputs/339"
+	"/outputs/339" -> "/outputs/340"
+	"/outputs/340" -> "/outputs/341"
+	"/outputs/341" -> "/outputs/342"
+	"/outputs/342" -> "/outputs/343"
+	421443888623294598 -> "/outputs/222"
+	"/outputs/222" -> 3266316679791726120
+	"/outputs/229" -> 15545005430680322283
+	"/outputs/236" -> 17044161583190139551
+	"/outputs/243" -> 1661814429271953994
+	"/outputs/252" -> 4699694909153685117
+	"/outputs/259" -> 10767404730878160022
+	"/outputs/266" -> 8912420686627221955
+	"/outputs/273" -> 8069407363500219295
+	"/outputs/282" -> 14706263190910772673
+	"/outputs/289" -> 14286000663907496118
+	"/outputs/296" -> 14002693597504403083
+	"/outputs/303" -> 6446143944831567414
+	"/outputs/310" -> 13739258726911528462
+	"/outputs/317" -> 648350340012996942
+	"/outputs/326" -> 6792361451724194340
+	"/outputs/333" -> 7846033052317768441
+	3266316679791726120 -> 14331756110628012191
+	14331756110628012191 -> "/outputs/228"
+	15545005430680322283 -> 11461714730556284879
+	11461714730556284879 -> "/outputs/235"
+	17044161583190139551 -> 253180032576607767
+	253180032576607767 -> "/outputs/242"
+	1661814429271953994 -> 3430846454445193926
+	3430846454445193926 -> "/outputs/251"
+	"/outputs/243" -> 8826074449707059113
+	8826074449707059113 -> "/outputs/251"
+	4699694909153685117 -> 8212875547236771015
+	8212875547236771015 -> "/outputs/258"
+	10767404730878160022 -> 2253903095101763387
+	2253903095101763387 -> "/outputs/265"
+	8912420686627221955 -> 1397571035298133363
+	1397571035298133363 -> "/outputs/272"
+	8069407363500219295 -> 18355074066990498597
+	18355074066990498597 -> "/outputs/281"
+	"/outputs/273" -> 10365537767206158995
+	10365537767206158995 -> "/outputs/281"
+	14706263190910772673 -> 5117724381864073531
+	5117724381864073531 -> "/outputs/288"
+	14286000663907496118 -> 2911185742417068899
+	2911185742417068899 -> "/outputs/295"
+	14002693597504403083 -> 10878126999804949939
+	10878126999804949939 -> "/outputs/302"
+	6446143944831567414 -> 15655438323911258780
+	15655438323911258780 -> "/outputs/309"
+	13739258726911528462 -> 2839332463412819598
+	2839332463412819598 -> "/outputs/316"
+	648350340012996942 -> 17191837213435110003
+	17191837213435110003 -> "/outputs/325"
+	"/outputs/317" -> 16975333706778247181
+	16975333706778247181 -> "/outputs/325"
+	6792361451724194340 -> 1958388623018335874
+	1958388623018335874 -> "/outputs/332"
+	7846033052317768441 -> 7901841111966620993
+	7901841111966620993 -> "/outputs/339"
+	graph [rankdir=TD]
+}

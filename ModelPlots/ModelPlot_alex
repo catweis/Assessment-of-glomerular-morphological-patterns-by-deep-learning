@@ -1,0 +1,25 @@
+digraph {
+	graph [bgcolor="#FFFFFF" color="#7C96BC" fontcolor="#202020" fontname=Verdana fontsize=10 margin="0,0" pad="1.0,0.5" rankdir=LR]
+	node [color="#7C96BC" fillcolor="#BCD6FC" fontcolor="#202020" fontname=Verdana fontsize=10 margin="0,0" shape=box style=filled]
+	edge [color="#7C96BC" fontcolor="#202020" fontname=Verdana fontsize=10 style=solid]
+	"/outputs/19" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool3x3</td></tr></table>>]
+	"/outputs/22" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool3x3</td></tr></table>>]
+	"/outputs/29" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool3x3</td></tr></table>>]
+	"/outputs/30" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>AveragePool1x1</td></tr></table>>]
+	"/outputs/31" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Flatten</td></tr></table>>]
+	"/outputs/36" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear</td></tr></table>>]
+	3270452950576324445 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv11x11 &gt; Relu</td></tr></table>>]
+	7024533298535095049 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv5x5 &gt; Relu</td></tr></table>>]
+	6247770612401622773 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	15407526315964941759 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x3</td></tr></table>>]
+	"/outputs/29" -> "/outputs/30"
+	"/outputs/30" -> "/outputs/31"
+	3270452950576324445 -> "/outputs/19"
+	"/outputs/19" -> 7024533298535095049
+	7024533298535095049 -> "/outputs/22"
+	"/outputs/31" -> 6247770612401622773
+	6247770612401622773 -> "/outputs/36"
+	"/outputs/22" -> 15407526315964941759
+	15407526315964941759 -> "/outputs/29"
+	graph [rankdir=TD]
+}

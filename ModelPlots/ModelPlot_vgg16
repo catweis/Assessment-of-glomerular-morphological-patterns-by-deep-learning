@@ -1,0 +1,33 @@
+digraph {
+	graph [bgcolor="#FFFFFF" color="#7C96BC" fontcolor="#202020" fontname=Verdana fontsize=10 margin="0,0" pad="1.0,0.5" rankdir=LR]
+	node [color="#7C96BC" fillcolor="#BCD6FC" fontcolor="#202020" fontname=Verdana fontsize=10 margin="0,0" shape=box style=filled]
+	edge [color="#7C96BC" fontcolor="#202020" fontname=Verdana fontsize=10 style=solid]
+	"/outputs/37" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool2x2</td></tr></table>>]
+	"/outputs/42" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool2x2</td></tr></table>>]
+	"/outputs/49" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool2x2</td></tr></table>>]
+	"/outputs/56" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool2x2</td></tr></table>>]
+	"/outputs/63" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>MaxPool2x2</td></tr></table>>]
+	"/outputs/64" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>AveragePool1x1</td></tr></table>>]
+	"/outputs/65" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Flatten</td></tr></table>>]
+	"/outputs/70" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear</td></tr></table>>]
+	14675354217327553228 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	15692961340595864139 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	13428703983404251102 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	2448325289150486328 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x3</td></tr></table>>]
+	17512952356041870556 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x3</td></tr></table>>]
+	6872623784641907194 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x3</td></tr></table>>]
+	"/outputs/63" -> "/outputs/64"
+	"/outputs/64" -> "/outputs/65"
+	14675354217327553228 -> "/outputs/37"
+	"/outputs/37" -> 15692961340595864139
+	15692961340595864139 -> "/outputs/42"
+	"/outputs/65" -> 13428703983404251102
+	13428703983404251102 -> "/outputs/70"
+	"/outputs/42" -> 2448325289150486328
+	2448325289150486328 -> "/outputs/49"
+	"/outputs/49" -> 17512952356041870556
+	17512952356041870556 -> "/outputs/56"
+	"/outputs/56" -> 6872623784641907194
+	6872623784641907194 -> "/outputs/63"
+	graph [rankdir=TD]
+}
