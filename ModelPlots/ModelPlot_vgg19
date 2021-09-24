@@ -10,24 +10,24 @@ digraph {
 	"/outputs/76" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>AveragePool1x1</td></tr></table>>]
 	"/outputs/77" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Flatten</td></tr></table>>]
 	"/outputs/82" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear</td></tr></table>>]
-	17801798124796718799 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	5512127565813789414 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	18248960174414078314 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	8437135539270459096 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x4</td></tr></table>>]
-	7816094707917271267 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x4</td></tr></table>>]
-	17649379093415634738 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x4</td></tr></table>>]
+	8483360968436940663 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	2004436796171693471 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	4270000355376536996 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	8301716944599477240 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x4</td></tr></table>>]
+	10735411883963702426 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x4</td></tr></table>>]
+	4396993583046600342 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x4</td></tr></table>>]
 	"/outputs/75" -> "/outputs/76"
 	"/outputs/76" -> "/outputs/77"
-	17801798124796718799 -> "/outputs/43"
-	"/outputs/43" -> 5512127565813789414
-	5512127565813789414 -> "/outputs/48"
-	"/outputs/77" -> 18248960174414078314
-	18248960174414078314 -> "/outputs/82"
-	"/outputs/48" -> 8437135539270459096
-	8437135539270459096 -> "/outputs/57"
-	"/outputs/57" -> 7816094707917271267
-	7816094707917271267 -> "/outputs/66"
-	"/outputs/66" -> 17649379093415634738
-	17649379093415634738 -> "/outputs/75"
+	8483360968436940663 -> "/outputs/43"
+	"/outputs/43" -> 2004436796171693471
+	2004436796171693471 -> "/outputs/48"
+	"/outputs/77" -> 4270000355376536996
+	4270000355376536996 -> "/outputs/82"
+	"/outputs/48" -> 8301716944599477240
+	8301716944599477240 -> "/outputs/57"
+	"/outputs/57" -> 10735411883963702426
+	10735411883963702426 -> "/outputs/66"
+	"/outputs/66" -> 4396993583046600342
+	4396993583046600342 -> "/outputs/75"
 	graph [rankdir=TD]
 }

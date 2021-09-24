@@ -3,6 +3,8 @@
 import torch
 from torchvision import models
 import hiddenlayer as hl
+import torch.nn as nn
+from tqdm import tqdm
 
 #%% define the models
 model_list = ['alex',
@@ -63,7 +65,7 @@ def load_model(imodel):
     return (model2train)
 
 #%% iterate over the model list, load the models and plot them
-for i_model in model_list:
+for i_model in tqdm(model_list):
 
     #%% load it
     model2plot = load_model(i_model)
@@ -72,6 +74,8 @@ for i_model in model_list:
         inputSize = 299
     else:
         inputSize = 224
+
+    model2plot.eval()
 
     #%% plot it with hiddenlayer
     im = hl.build_graph(model2plot, torch.zeros([1, 3, inputSize, inputSize]))

@@ -72,77 +72,77 @@ digraph {
 	"/outputs/969" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>GlobalAveragePool</td></tr></table>>]
 	"/outputs/970" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Flatten</td></tr></table>>]
 	"/outputs/971" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Linear</td></tr></table>>]
-	17408201626917832435 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv7x7 &gt; BatchNorm &gt; Relu</td></tr></table>>]
-	7048212248880767387 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	12291311642265972571 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	13171342191954939309 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	8977976662344927204 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	8937066597152800415 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	13704337218207451902 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	12274205525576647152 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	12010958618903699409 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	2613102499082166275 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	1497005561395976044 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	3402379187909952905 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	5508096122315561233 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	12464362862934063502 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	919782083239604169 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	1414917033750075298 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	18154374756555792221 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	961050374873673679 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	6245743573264316712 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	15636472148792318300 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	4221582303465630676 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	109355218166708665 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	12891013731833302753 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	9618034911365124112 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	9039615257820855964 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	12868002446112734049 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	17335799129452981784 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	16290374073212843281 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	15482019524003179537 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	571098752439684746 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	5788367773150545243 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	11174925568480736773 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	8387894173536799299 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	13328034709425902814 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	7380118317875432394 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	15646010314032480021 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	8579477359768287053 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	1258845145227265920 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
-	9722940243310087397 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	13078419635223432745 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	3001309488944127000 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	17438150122646936401 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	5898153265513023658 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	7050712526148143946 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	4017080711540411090 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	10886744823508373128 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	16492271080555194750 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	6632598749867623287 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	8434406448310440081 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	17886177293341921788 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	3651808983870568808 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	6741052241069554569 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	7055072852273196328 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	14224294650503437144 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	18201439782251664282 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	4801956026184542245 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	14052593669181347916 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	3247161186854247682 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	14131650051388264752 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	16848426036651954551 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	5204613626781727758 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	17613715371910338895 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	10828510750808484089 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	139588305870773707 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	10071812579086426911 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	17603040674359208253 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	17744384382866405498 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	10632575427535706071 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	16246743332619601751 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	15739138521576500152 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
-	14644287458356535692 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	8059883643782416887 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv7x7 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	12178171754081885416 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	9950694453115887579 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	13100831371885145955 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	14558143790255726460 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	9320043986860196431 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	16371980523298787027 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	15669483167642771542 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	12293818686163909742 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	14344502541324207581 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	4056524091556557914 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	679122187476367636 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	7339689054153253301 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	7837033149258849180 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	3190228519677364015 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	14515704864655581728 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	8790044271579545509 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	16620980371877259382 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	9362629749864849409 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	11429601113704215933 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	13811501634014008133 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	4599145706833919473 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	15954438831615286440 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	7932337080739077975 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	5246584711744235484 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	3845240707694378237 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	16965961578407115234 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	10559605191465445497 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	8827789726891157194 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	7884854004498894345 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	13258643394643248643 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	16628070504464781911 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	14930810068504215119 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	66917611925294894 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	7835154063836139795 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	17932106048187880963 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	12985585315195988510 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	5789697447539385695 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm</td></tr></table>>]
+	5111466552961623047 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	17802515048613936590 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	555475371147525350 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	11543950558925501854 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	2530551507010275237 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	4879727358441512833 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	8549394734684175610 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	1070802695575634508 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	18433290831471148238 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	13074119644896044318 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	7993876737819154659 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	15738398265660644866 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	2989734572788907340 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	16663594928407960840 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	11093668367086419787 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	5011756893934903661 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	9248213554232534593 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	9443496754250277724 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	13619176010692531143 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	15809637697756842437 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	7367591362631105947 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	8186953942243157273 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	13739030224041848424 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	5095198224541681671 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	14728980359424865178 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	5082064135150891889 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	15277117743654132461 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	1650134679171820102 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	17127632442321184748 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	7171585379531099936 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	8175858346486679781 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	9131752139462224220 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
+	2494751476033112731 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr><tr><td align='right' cellpadding='2'>x2</td></tr></table>>]
 	"/outputs/641" -> "/outputs/642"
 	"/outputs/642" -> "/outputs/651"
 	"/outputs/651" -> "/outputs/652"
@@ -208,113 +208,113 @@ digraph {
 	"/outputs/968" -> "/outputs/969"
 	"/outputs/969" -> "/outputs/970"
 	"/outputs/970" -> "/outputs/971"
-	17408201626917832435 -> "/outputs/630"
-	7048212248880767387 -> "/outputs/641"
-	"/outputs/630" -> 12291311642265972571
-	12291311642265972571 -> "/outputs/641"
-	13171342191954939309 -> "/outputs/651"
-	8977976662344927204 -> "/outputs/661"
-	8937066597152800415 -> "/outputs/673"
-	"/outputs/662" -> 13704337218207451902
-	13704337218207451902 -> "/outputs/673"
-	12274205525576647152 -> "/outputs/683"
-	12010958618903699409 -> "/outputs/693"
-	2613102499082166275 -> "/outputs/703"
-	1497005561395976044 -> "/outputs/715"
-	"/outputs/704" -> 3402379187909952905
-	3402379187909952905 -> "/outputs/715"
-	5508096122315561233 -> "/outputs/725"
-	12464362862934063502 -> "/outputs/735"
-	919782083239604169 -> "/outputs/745"
-	1414917033750075298 -> "/outputs/755"
-	18154374756555792221 -> "/outputs/765"
-	961050374873673679 -> "/outputs/775"
-	6245743573264316712 -> "/outputs/785"
-	15636472148792318300 -> "/outputs/795"
-	4221582303465630676 -> "/outputs/805"
-	109355218166708665 -> "/outputs/815"
-	12891013731833302753 -> "/outputs/825"
-	9618034911365124112 -> "/outputs/835"
-	9039615257820855964 -> "/outputs/845"
-	12868002446112734049 -> "/outputs/855"
-	17335799129452981784 -> "/outputs/865"
-	16290374073212843281 -> "/outputs/875"
-	15482019524003179537 -> "/outputs/885"
-	571098752439684746 -> "/outputs/895"
-	5788367773150545243 -> "/outputs/905"
-	11174925568480736773 -> "/outputs/915"
-	8387894173536799299 -> "/outputs/925"
-	13328034709425902814 -> "/outputs/935"
-	7380118317875432394 -> "/outputs/947"
-	"/outputs/936" -> 15646010314032480021
-	15646010314032480021 -> "/outputs/947"
-	8579477359768287053 -> "/outputs/957"
-	1258845145227265920 -> "/outputs/967"
-	"/outputs/630" -> 9722940243310087397
-	9722940243310087397 -> 7048212248880767387
-	"/outputs/642" -> 13078419635223432745
-	13078419635223432745 -> 13171342191954939309
-	"/outputs/652" -> 3001309488944127000
-	3001309488944127000 -> 8977976662344927204
-	"/outputs/662" -> 17438150122646936401
-	17438150122646936401 -> 8937066597152800415
-	"/outputs/674" -> 5898153265513023658
-	5898153265513023658 -> 12274205525576647152
-	"/outputs/684" -> 7050712526148143946
-	7050712526148143946 -> 12010958618903699409
-	"/outputs/694" -> 4017080711540411090
-	4017080711540411090 -> 2613102499082166275
-	"/outputs/704" -> 10886744823508373128
-	10886744823508373128 -> 1497005561395976044
-	"/outputs/716" -> 16492271080555194750
-	16492271080555194750 -> 5508096122315561233
-	"/outputs/726" -> 6632598749867623287
-	6632598749867623287 -> 12464362862934063502
-	"/outputs/736" -> 8434406448310440081
-	8434406448310440081 -> 919782083239604169
-	"/outputs/746" -> 17886177293341921788
-	17886177293341921788 -> 1414917033750075298
-	"/outputs/756" -> 3651808983870568808
-	3651808983870568808 -> 18154374756555792221
-	"/outputs/766" -> 6741052241069554569
-	6741052241069554569 -> 961050374873673679
-	"/outputs/776" -> 7055072852273196328
-	7055072852273196328 -> 6245743573264316712
-	"/outputs/786" -> 14224294650503437144
-	14224294650503437144 -> 15636472148792318300
-	"/outputs/796" -> 18201439782251664282
-	18201439782251664282 -> 4221582303465630676
-	"/outputs/806" -> 4801956026184542245
-	4801956026184542245 -> 109355218166708665
-	"/outputs/816" -> 14052593669181347916
-	14052593669181347916 -> 12891013731833302753
-	"/outputs/826" -> 3247161186854247682
-	3247161186854247682 -> 9618034911365124112
-	"/outputs/836" -> 14131650051388264752
-	14131650051388264752 -> 9039615257820855964
-	"/outputs/846" -> 16848426036651954551
-	16848426036651954551 -> 12868002446112734049
-	"/outputs/856" -> 5204613626781727758
-	5204613626781727758 -> 17335799129452981784
-	"/outputs/866" -> 17613715371910338895
-	17613715371910338895 -> 16290374073212843281
-	"/outputs/876" -> 10828510750808484089
-	10828510750808484089 -> 15482019524003179537
-	"/outputs/886" -> 139588305870773707
-	139588305870773707 -> 571098752439684746
-	"/outputs/896" -> 10071812579086426911
-	10071812579086426911 -> 5788367773150545243
-	"/outputs/906" -> 17603040674359208253
-	17603040674359208253 -> 11174925568480736773
-	"/outputs/916" -> 17744384382866405498
-	17744384382866405498 -> 8387894173536799299
-	"/outputs/926" -> 10632575427535706071
-	10632575427535706071 -> 13328034709425902814
-	"/outputs/936" -> 16246743332619601751
-	16246743332619601751 -> 7380118317875432394
-	"/outputs/948" -> 15739138521576500152
-	15739138521576500152 -> 8579477359768287053
-	"/outputs/958" -> 14644287458356535692
-	14644287458356535692 -> 1258845145227265920
+	8059883643782416887 -> "/outputs/630"
+	12178171754081885416 -> "/outputs/641"
+	"/outputs/630" -> 9950694453115887579
+	9950694453115887579 -> "/outputs/641"
+	13100831371885145955 -> "/outputs/651"
+	14558143790255726460 -> "/outputs/661"
+	9320043986860196431 -> "/outputs/673"
+	"/outputs/662" -> 16371980523298787027
+	16371980523298787027 -> "/outputs/673"
+	15669483167642771542 -> "/outputs/683"
+	12293818686163909742 -> "/outputs/693"
+	14344502541324207581 -> "/outputs/703"
+	4056524091556557914 -> "/outputs/715"
+	"/outputs/704" -> 679122187476367636
+	679122187476367636 -> "/outputs/715"
+	7339689054153253301 -> "/outputs/725"
+	7837033149258849180 -> "/outputs/735"
+	3190228519677364015 -> "/outputs/745"
+	14515704864655581728 -> "/outputs/755"
+	8790044271579545509 -> "/outputs/765"
+	16620980371877259382 -> "/outputs/775"
+	9362629749864849409 -> "/outputs/785"
+	11429601113704215933 -> "/outputs/795"
+	13811501634014008133 -> "/outputs/805"
+	4599145706833919473 -> "/outputs/815"
+	15954438831615286440 -> "/outputs/825"
+	7932337080739077975 -> "/outputs/835"
+	5246584711744235484 -> "/outputs/845"
+	3845240707694378237 -> "/outputs/855"
+	16965961578407115234 -> "/outputs/865"
+	10559605191465445497 -> "/outputs/875"
+	8827789726891157194 -> "/outputs/885"
+	7884854004498894345 -> "/outputs/895"
+	13258643394643248643 -> "/outputs/905"
+	16628070504464781911 -> "/outputs/915"
+	14930810068504215119 -> "/outputs/925"
+	66917611925294894 -> "/outputs/935"
+	7835154063836139795 -> "/outputs/947"
+	"/outputs/936" -> 17932106048187880963
+	17932106048187880963 -> "/outputs/947"
+	12985585315195988510 -> "/outputs/957"
+	5789697447539385695 -> "/outputs/967"
+	"/outputs/630" -> 5111466552961623047
+	5111466552961623047 -> 12178171754081885416
+	"/outputs/642" -> 17802515048613936590
+	17802515048613936590 -> 13100831371885145955
+	"/outputs/652" -> 555475371147525350
+	555475371147525350 -> 14558143790255726460
+	"/outputs/662" -> 11543950558925501854
+	11543950558925501854 -> 9320043986860196431
+	"/outputs/674" -> 2530551507010275237
+	2530551507010275237 -> 15669483167642771542
+	"/outputs/684" -> 4879727358441512833
+	4879727358441512833 -> 12293818686163909742
+	"/outputs/694" -> 8549394734684175610
+	8549394734684175610 -> 14344502541324207581
+	"/outputs/704" -> 1070802695575634508
+	1070802695575634508 -> 4056524091556557914
+	"/outputs/716" -> 18433290831471148238
+	18433290831471148238 -> 7339689054153253301
+	"/outputs/726" -> 13074119644896044318
+	13074119644896044318 -> 7837033149258849180
+	"/outputs/736" -> 7993876737819154659
+	7993876737819154659 -> 3190228519677364015
+	"/outputs/746" -> 15738398265660644866
+	15738398265660644866 -> 14515704864655581728
+	"/outputs/756" -> 2989734572788907340
+	2989734572788907340 -> 8790044271579545509
+	"/outputs/766" -> 16663594928407960840
+	16663594928407960840 -> 16620980371877259382
+	"/outputs/776" -> 11093668367086419787
+	11093668367086419787 -> 9362629749864849409
+	"/outputs/786" -> 5011756893934903661
+	5011756893934903661 -> 11429601113704215933
+	"/outputs/796" -> 9248213554232534593
+	9248213554232534593 -> 13811501634014008133
+	"/outputs/806" -> 9443496754250277724
+	9443496754250277724 -> 4599145706833919473
+	"/outputs/816" -> 13619176010692531143
+	13619176010692531143 -> 15954438831615286440
+	"/outputs/826" -> 15809637697756842437
+	15809637697756842437 -> 7932337080739077975
+	"/outputs/836" -> 7367591362631105947
+	7367591362631105947 -> 5246584711744235484
+	"/outputs/846" -> 8186953942243157273
+	8186953942243157273 -> 3845240707694378237
+	"/outputs/856" -> 13739030224041848424
+	13739030224041848424 -> 16965961578407115234
+	"/outputs/866" -> 5095198224541681671
+	5095198224541681671 -> 10559605191465445497
+	"/outputs/876" -> 14728980359424865178
+	14728980359424865178 -> 8827789726891157194
+	"/outputs/886" -> 5082064135150891889
+	5082064135150891889 -> 7884854004498894345
+	"/outputs/896" -> 15277117743654132461
+	15277117743654132461 -> 13258643394643248643
+	"/outputs/906" -> 1650134679171820102
+	1650134679171820102 -> 16628070504464781911
+	"/outputs/916" -> 17127632442321184748
+	17127632442321184748 -> 14930810068504215119
+	"/outputs/926" -> 7171585379531099936
+	7171585379531099936 -> 66917611925294894
+	"/outputs/936" -> 8175858346486679781
+	8175858346486679781 -> 7835154063836139795
+	"/outputs/948" -> 9131752139462224220
+	9131752139462224220 -> 12985585315195988510
+	"/outputs/958" -> 2494751476033112731
+	2494751476033112731 -> 5789697447539385695
 	graph [rankdir=TD]
 }
